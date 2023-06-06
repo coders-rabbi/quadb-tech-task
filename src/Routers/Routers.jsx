@@ -3,6 +3,7 @@ import {
 } from "react-router-dom";
 import Home from "../Page/Home/Home";
 import Root from "../Root/Root";
+import Moviedetails from "../Page/MovieDetails/Moviedetails";
 
 
 export const router = createBrowserRouter([
@@ -15,7 +16,9 @@ export const router = createBrowserRouter([
                 element: <Home></Home>
             },
             {
-                path: "/",
+                path: "movie/:details",
+                element: <Moviedetails></Moviedetails>,
+                loader: () => fetch('https://api.tvmaze.com/search/shows?q=all')
             }
         ],
     },

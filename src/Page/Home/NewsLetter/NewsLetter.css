@@ -1,0 +1,5 @@
+.newsLetter-bg{
+    background-image: url(../../../assets/newsletter_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}

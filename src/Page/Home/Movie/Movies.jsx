@@ -4,7 +4,7 @@ import MoviesCard from './MoviesCard';
 
 const Movies = () => {
     const [movies, setMovies] = useState([]);
-    console.log(movies);
+    // console.log(movies);
     useEffect(() => {
         fetch('https://api.tvmaze.com/search/shows?q=all')
             .then(res => res.json())
@@ -17,7 +17,7 @@ const Movies = () => {
             <SectionTitle
                 heading="ONLINE STREAMING" subHeading="Movies"
             ></SectionTitle>
-            <div className='max-w-screen-xl mx-auto grid md:grid-cols-2 justify-items-center lg:grid-cols-3 gap-10'>
+            <div className='max-w-screen-xl mx-auto grid md:grid-cols-2 justify-items-center lg:grid-cols-3 gap-16'>
                 {
                     movies.map(movie =>
                     <MoviesCard
