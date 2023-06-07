@@ -17,7 +17,7 @@ const Movies = () => {
             <SectionTitle
                 heading="ONLINE STREAMING" subHeading="Movies"
             ></SectionTitle>
-            <div className='max-w-screen-xl mx-auto grid md:grid-cols-2 justify-items-center lg:grid-cols-3 gap-16'>
+            <div className='max-w-screen-xl mx-auto grid md:grid-cols-2 justify-items-center lg:grid-cols-3 gap-16 mb-28'>
                 {
                     movies.map(movie =>
                     <MoviesCard

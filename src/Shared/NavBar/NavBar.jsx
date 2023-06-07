@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 const NaveBar = () => {
     const navItems = <>
-        <li><Link>Home</Link></li>
-        <li><Link to="/menu">Menu</Link></li>
-        <li><Link to="/order">Order Food</Link></li>
-        <li><Link to="/login">Login</Link></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link>Movie</Link></li>
+        <li><Link>Pricing</Link></li>
+        <li><Link>Login</Link></li>
     </>
     return (
         <div className=' flex justify-center'>
-            <div className="navbar fixed z-10 max-w-screen-xl text-white">
+            <div className="navbar fixed z-10 max-w-screen-xl bg-black opacity-50 text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">

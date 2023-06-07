@@ -3,20 +3,22 @@ import './MiddleBanner.css'
 
 const MiddleBanner = () => {
     return (
-        <div className='middleBanner-bg '>
-            <div className='md:grid grid-cols-2 max-w-screen-xl mx-auto'>
-                <div>
-                    <p className='text-xl uppercase'>online streaming</p>
-                    <h2>Live Movie & TV Shows For Friends & Family</h2>
-                    <p>Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.</p>
-                    <div>
-                        <h1>HD 4K</h1>
+        <div className='middleBanner-bg py-28'>
+            <div className='md:grid grid-cols-2 max-w-screen-xl mx-auto items-center'>
+                <div className='w-8/12'>
+                    <p className='font-bold uppercase mb-4'>online streaming</p>
+                    <h2 className='text-4xl font-bold mb-8'>Live Movie & TV Shows For Friends & Family</h2>
+                    <p className='font-semibold'>Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration.</p>
+                    <div className='flex justify-between'>
+                        <h1 className='text-5xl font-bold'>HD 4K</h1>
                         <div>
-                            <h2>20K+</h2>
-                            <p>Active Customer</p>
+                            <h2 className='text-4xl font-bold'>20K+</h2>
+                            <p className='text-2xl font-bold'>Active Customer</p>
                         </div>
                     </div>
-                    <button></button>
+                    <div className='mt-7 flex justify-center'>
+                        <button className="btn btn-wide bg-[#E3D804]">Wide</button>
+                    </div>
                 </div>
                 <div>
                     <img src={live_img} alt="" />

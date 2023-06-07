@@ -1,0 +1,5 @@
+.movieDetails-bg{
+    background-image: url(../../assets/movie_details_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
