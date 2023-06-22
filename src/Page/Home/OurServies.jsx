@@ -8,7 +8,7 @@ const OurServies = () => {
                 <img className='w-[550] h-[550]' src={resulation} alt="" />
             </div>
             <div className='text-white p-12 md:p-0'>
-                <p className='text-[#E4D804] text-xl font-bold uppercase mb-4'>---  our services</p>
+                <p className='text-[#E4D804] text-xl font-bold uppercase mb-4'>--- Bangladesh</p>
                 <h2 className='text-5xl font-bold mb-8'>Download Your Shows Watch Offline.</h2>
                 <p>Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod tempor.There are many variations of passages of lorem Ipsum available, but the majority have suffered alteration in some injected humour.</p>
                 <div>
